@@ -2,17 +2,17 @@ local mainMod = "SUPER"
 local term    = "ghostty"
 local menu    = "rofi -show drun"
 
-hl.bind(mainMod .. " + C",      hl.dsp.window.close())
+hl.bind(mainMod .. " + c",      hl.dsp.window.close())
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(term))
 hl.bind(mainMod .. " + Space",  hl.dsp.exec_cmd(menu))
 
-hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))
-hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
+hl.bind(mainMod .. " + f", hl.dsp.window.fullscreen({ action = "toggle" }))
+hl.bind(mainMod .. " + v", hl.dsp.window.float({ action = "toggle" }))
 
-hl.bind(mainMod .. " + S", hl.dsp.exec_cmd( "hyprshot -m region --clipboard-only"))
-hl.bind(mainMod .. " + P ", hl.dsp.exec_cmd("waypaper &"))
-hl.bind(mainMod .. " + M ", hl.dsp.exec_cmd("pavucontrol &"))
-hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("pkill waybar && waybar &"))
+hl.bind(mainMod .. " + s", hl.dsp.exec_cmd( "hyprshot -m region --clipboard-only"))
+hl.bind(mainMod .. " + p ", hl.dsp.exec_cmd("waypaper &"))
+hl.bind(mainMod .. " + m ", hl.dsp.exec_cmd("pavucontrol &"))
+hl.bind(mainMod .. " + SHIFT + w", hl.dsp.exec_cmd("pkill waybar && waybar &"))
 
 
 -- Move focus

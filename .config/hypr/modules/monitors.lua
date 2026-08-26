@@ -1,10 +1,10 @@
 -- Vertical
 hl.monitor({
-        output    = "DP-1",
-        mode      = "1920x1080@75",
-        position  = "auto-center-left",
-        scale     = 1,
-        transform = 1,
+  output    = "DP-1",
+  mode      = "1920x1080@75",
+  position  = "auto-center-left",
+  scale     = 1,
+  transform = 1,
 })
 
 hl.workspace_rule({ workspace = "5",  monitor = "DP-1",     layout = "scrolling", layout_opts = { direction = "down"} })
@@ -15,10 +15,10 @@ hl.workspace_rule({ workspace = "1",  monitor = "DP-1",     layout = "scrolling"
 
 -- Main
 hl.monitor({
-        output    = "HDMI-A-1",
-        mode      = "1920x1080@144",
-        position  = "0x0",
-        scale     = 1
+  output    = "HDMI-A-1",
+  mode      = "1920x1080@144",
+  position  = "0x0",
+  scale     = 1
 })
 
 hl.workspace_rule({ workspace = "10", monitor = "HDMI-A-1", layout = "master" })
