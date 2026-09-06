@@ -1,5 +1,5 @@
 local mainMod = "SUPER"
-local term    = "ghostty"
+local term    = "foot"
 local menu    = "rofi -show drun"
 
 hl.bind(mainMod .. " + c",      hl.dsp.window.close())
