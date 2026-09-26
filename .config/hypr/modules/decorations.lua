@@ -6,7 +6,7 @@ hl.config({
     gaps_workspaces = 250,
 
     border_size = 1,
-    ["col.active_border"] = "#ebbcba",
+    ["col.active_border"] = "#83a598",
     ["col.inactive_border"] = "#191724",
 
     resize_on_border = true,
@@ -18,15 +18,15 @@ hl.config({
   },
 
   animations = {
-    enabled = false,
+    enabled = true,
   },
 
   decoration = {
     --rounding = 15,
     --rounding_power = 1,
 
-    active_opacity = 0.95,
-    inactive_opacity = 0.85,
+    active_opacity = 0.99,
+    inactive_opacity = 0.925,
     fullscreen_opacity = 1.0,
 
     dim_inactive = 0,
