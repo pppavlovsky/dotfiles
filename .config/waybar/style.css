@@ -6,14 +6,22 @@
 }
 
 window#waybar {
-    background-color: @base;
+    background-color: @bg;
+    border-bottom: 2px solid @purple1;
 }
 
 #workspaces {
 }
 
+#workspaces button {
+    background-color: @bg1;
+    min-width: 75px;
+    margin: 10px;
+    border-radius: 10px;
+}
 #workspaces button.active {
-        color: @rose;
+        min-width: 100px;
+        background-color: @aqua1;
 }
 
 #workspaces button.urgent {
