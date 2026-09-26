@@ -5,8 +5,8 @@ hl.config({
     float_gaps = 0,
     gaps_workspaces = 250,
 
-    border_size = 1,
-    ["col.active_border"] = "#83a598",
+    border_size = 2,
+    ["col.active_border"] = "#a6da95",
     ["col.inactive_border"] = "#191724",
 
     resize_on_border = true,
@@ -22,8 +22,8 @@ hl.config({
   },
 
   decoration = {
-    --rounding = 15,
-    --rounding_power = 1,
+    rounding = 10,
+    rounding_power = 10,
 
     active_opacity = 0.99,
     inactive_opacity = 0.925,
