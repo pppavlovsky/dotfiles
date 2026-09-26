@@ -57,7 +57,7 @@
     },
 
     "cpu": {
-            "format": "[ cpu: {usage}%",
+            "format": " CPU: {usage} ",
                     "tooltip": false
     },
 
@@ -70,7 +70,7 @@
     },
 
     "memory": {
-            "format": "[ mem: {}% ] "
+            "format": " Mem: {} "
     },
 
     "network": {
