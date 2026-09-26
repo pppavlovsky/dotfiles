@@ -20,11 +20,18 @@ alias l='eza -lh --git'
 alias cat='bat'
 alias grep='rg --color=auto'
 
+alias g='g'
 alias ga='git add'
-alias gs='git status'
-alias gcm='git commit -m'
+alias gb='git branch'
+alias gbd='git branch --delete'
+alias gcmsg='git commit --message'
+alias gd='git diff'
+alias glo='git log --oneline --decorate'
+alias gl='git pull'
 alias gp='git push'
-alias gck='git checkout'
+alias gst='git status'
+alias gsw='git switch'
+alias gswc='git switch -c'
 
 # Prompt
 eval "$(starship init bash)"
