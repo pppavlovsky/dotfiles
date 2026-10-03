@@ -1,27 +1,30 @@
-@import "./theme.css";
+@import "./rose-pine.css";
 
 * {
         all: unset;
         font-size: 0.9rem;
+        font-family: "DepartureMono Nerd Font";
+        font-weight: 700;
 }
 
 window#waybar {
     background-color: @bg;
-    border-bottom: 2px solid @test;
+    border-bottom: 2px solid @rose;
 }
 
 #workspaces {
 }
 
 #workspaces button {
-    background-color: @bg1;
-    min-width: 75px;
+    background-color: @iris;
+    color: #191725;
+    min-width: 50px;
     margin: 10px;
     border-radius: 10px;
 }
 #workspaces button.active {
-        min-width: 100px;
-        background-color: @aqua1;
+        min-width: 75px;
+        background-color: @rose;
 }
 
 #workspaces button.urgent {
@@ -30,7 +33,7 @@ window#waybar {
 
 #clock {
         font-size: 1.3rem;
-        font-weight: 500;
+        font-weight: 700;
 }
 
 #cpu {

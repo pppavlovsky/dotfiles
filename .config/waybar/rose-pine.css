@@ -3,12 +3,7 @@
 * Maintainer: DankChoir
 */
 
-@define-color bg              #1e1e2e;
-@define-color bg1             #6e768d;
-
-@define-color aqua1           #a6da95;
-@define-color test            #a6da95;
-
+@define-color base            #191724;
 @define-color surface         #1f1d2e;
 @define-color overlay         #26233a;
 
