@@ -12,6 +12,7 @@ hl.bind(mainMod .. " + v", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + s", hl.dsp.exec_cmd( "hyprshot -m region --clipboard-only"))
 hl.bind(mainMod .. " + p ", hl.dsp.exec_cmd("waypaper &"))
 hl.bind(mainMod .. " + m ", hl.dsp.exec_cmd("hyprpwcenter"))
+hl.bind(mainMod .. " + b ", hl.dsp.exec_cmd("blueman-manager"))
 hl.bind(mainMod .. " + SHIFT + w", hl.dsp.exec_cmd("pkill waybar && waybar &"))
 
 
