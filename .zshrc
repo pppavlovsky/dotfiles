@@ -15,9 +15,11 @@ alias gsw='git switch'
 alias gc='git commit -v'
 alias gcmsg='git commit -m'
 
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-export EDITOR='nvim'
+plugins=(
+    git
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    )
 
 eval "$(starship init zsh)"
