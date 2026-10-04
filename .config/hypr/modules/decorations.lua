@@ -5,7 +5,7 @@ hl.config({
     float_gaps = 0,
     gaps_workspaces = 250,
 
-    border_size = 2,
+    border_size = 1,
     ["col.active_border"] = "#ebbcba",
     ["col.inactive_border"] = "#191724",
 

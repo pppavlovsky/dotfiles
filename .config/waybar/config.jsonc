@@ -16,7 +16,7 @@
             "cpu",
             "temperature",
             "memory",
-            "sway/language",
+	    "battery",
             "tray"
     ],
 
@@ -42,7 +42,7 @@
 
     "tray": {
         // "icon-size": 21,
-        "spacing": 10,
+        "spacing": 10
         // "icons": {
         //   "blueman": "bluetooth",
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
@@ -57,7 +57,7 @@
     },
 
     "cpu": {
-            "format": " CPU: {usage} ",
+            "format": " CPU:{usage} ",
                     "tooltip": false
     },
 
@@ -66,11 +66,11 @@
             "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
             "critical-threshold": 85,
             "format-critical": "{temperatureC}C - ABOUT TO EXPLODE NGL",
-            "format": " {temperatureC}C ]"
+            "format": "t:{temperatureC}C"
     },
 
     "memory": {
-            "format": " Mem: {} "
+            "format": " Mem:{} "
     },
 
     "network": {
