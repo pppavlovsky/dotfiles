@@ -1,6 +1,7 @@
 alias cat='bat'
 alias n='nvim'
 alias c='clear'
+alias ff='fastfetch'
 
 alias ls='eza'
 alias ll='eza -lh --git'
